@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Which Better?</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Times New Roman", Times, serif;
+            background-color: #ffffff;
+        }
+
+        .navbar {
+            background-color: maroon;
+            padding: 12px 0;
+        }
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding-left: 30px;
+        }
+        .navbar ul li {
+            display: inline-block;
+            position: relative;
+            margin-right: 30px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 5px;
+            display: inline-block;
+        }
+        .navbar ul li ul {
+            display: none;
+            position: absolute;
+            background-color: maroon;
+            top: 100%;
+            left: 0;
+            min-width: 200px;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+        .navbar ul li:hover ul {
+            display: block;
+        }
+        .navbar ul li ul li {
+            display: block;
+        }
+        .navbar ul li ul li a {
+            padding: 8px 15px;
+        }
+
+        .container {
+            padding: 40px 60px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 40px;
+            font-weight: bold;
+            color: black;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 18px;
+        }
+
+        th, td {
+            border: 2px solid #000;
+            padding: 14px;
+            text-align: center;
+        }
+
+        th {
+            background-color: maroon;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+            <a href="#">Shows</a>
+            <ul>
+                <li><a href="mirzapur.html">Mirzapur</a></li>
+                <li><a href="sacredgames.html">Sacred Games</a></li>
+                <li><a href="moneyheist.html">Money Heist</a></li>
+                <li><a href="gangsofwasseypur.html">Gangs of Wasseypur</a></li>
+                <li><a href="berlin.html">Berlin</a></li>
+            </ul>
+        </li>
+        <li><a href="tablepage.html">Comparison</a></li>
+        <li><a href="form.html">Review</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+    </ul>
+</div>
+
+<div class="container">
+
+    <h1>WHICH BETTER?</h1>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Release Date</th>
+            <th>IMDb Rating</th>
+        </tr>
+
+        <tr>
+            <td>Mirzapur</td>
+            <td>2018</td>
+            <td>8.5/10</td>
+        </tr>
+
+        <tr>
+            <td>Sacred Games</td>
+            <td>2018</td>
+            <td>8.5/10</td>
+        </tr>
+
+        <tr>
+            <td>Money Heist</td>
+            <td>2017</td>
+            <td>8.2/10</td>
+        </tr>
+
+        <tr>
+            <td>Gangs of Wasseypur</td>
+            <td>2012</td>
+            <td>8.2/10</td>
+        </tr>
+
+        <tr>
+            <td>Berlin</td>
+            <td>2023</td>
+            <td>7.0/10</td>
+        </tr>
+    </table>
+
+</div>
+
+</body>
+</html>
