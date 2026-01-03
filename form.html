@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show Review Form</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Times New Roman", Times, serif;
+            background-color: #ffffff;
+        }
+
+        .navbar {
+            background-color: maroon;
+            padding: 12px 0;
+        }
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding-left: 30px;
+        }
+        .navbar ul li {
+            display: inline-block;
+            position: relative;
+            margin-right: 30px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 5px;
+            display: inline-block;
+        }
+        .navbar ul li ul {
+            display: none;
+            position: absolute;
+            background-color: maroon;
+            top: 100%;
+            left: 0;
+            min-width: 200px;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+        .navbar ul li:hover ul {
+            display: block;
+        }
+        .navbar ul li ul li {
+            display: block;
+        }
+        .navbar ul li ul li a {
+            padding: 8px 15px;
+        }
+
+        .container {
+            width: 100%;
+            min-height: 100vh;
+            padding: 40px 60px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 40px;
+            font-weight: bold;
+            color: black;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 18px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 25px;
+            font-size: 16px;
+            border: 2px solid #000;
+            box-sizing: border-box;
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        textarea {
+            height: 120px;
+            resize: vertical;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #8b3a10;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #6e2d0c;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+            <a href="#">Shows</a>
+            <ul>
+                <li><a href="mirzapur.html">Mirzapur</a></li>
+                <li><a href="sacredgames.html">Sacred Games</a></li>
+                <li><a href="moneyheist.html">Money Heist</a></li>
+                <li><a href="gangsofwasseypur.html">Gangs of Wasseypur</a></li>
+                <li><a href="berlin.html">Berlin</a></li>
+            </ul>
+        </li>
+        <li><a href="tablepage.html">Comparison</a></li>
+        <li><a href="form.html">Review</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+    </ul>
+</div>
+
+<div class="container">
+
+    <h1>Review Form</h1>
+
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="show">Select Show</label>
+        <select id="show" name="show" required>
+            <option value="">-- Select a show --</option>
+            <option>Mirzapur</option>
+            <option>Sacred Games</option>
+            <option>Money Heist</option>
+            <option>Gangs of Wasseypur</option>
+            <option>Berlin</option>
+        </select>
+
+        <label for="review">Your Review</label>
+        <textarea id="review" name="review" placeholder="Write your review here..." required></textarea>
+
+        <button type="submit">Submit Review</button>
+    </form>
+
+</div>
+
+</body>
+</html>
