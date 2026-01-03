@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Money Heist</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Times New Roman", Times, serif;
+            background-color: #ffffff;
+        }
+
+        .navbar {
+            background-color: maroon;
+            padding: 12px 0;
+        }
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding-left: 30px;
+        }
+        .navbar ul li {
+            display: inline-block;
+            position: relative;
+            margin-right: 30px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 5px;
+            display: inline-block;
+        }
+        .navbar ul li ul {
+            display: none;
+            position: absolute;
+            background-color: maroon;
+            top: 100%;
+            left: 0;
+            min-width: 200px;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+        .navbar ul li:hover ul {
+            display: block;
+        }
+        .navbar ul li ul li {
+            display: block;
+        }
+        .navbar ul li ul li a {
+            padding: 8px 15px;
+        }
+
+        .container {
+            padding: 40px 60px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 35px;
+            color: black;
+            font-weight: bold;
+        }
+
+        .video-space {
+            width: 100%;
+            height: 360px;
+            margin-bottom: 35px;
+        }
+
+        .video-space iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        h3 {
+            font-size: 17px;
+            margin-top: 25px;
+        }
+
+        ul {
+            margin-top: 10px;
+        }
+
+        li {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        ul ul {
+            margin-top: 8px;
+        }
+
+        .bold-black {
+            font-weight: bold;
+            color: black;
+        }
+
+        .rating {
+            margin-top: 30px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .rating-score {
+            text-align: center;
+            margin-top: 8px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+            <a href="#">Shows</a>
+            <ul>
+                <li><a href="mirzapur.html">Mirzapur</a></li>
+                <li><a href="sacredgames.html">Sacred Games</a></li>
+                <li><a href="moneyheist.html">Money Heist</a></li>
+                <li><a href="gangsofwasseypur.html">Gangs of Wasseypur</a></li>
+                <li><a href="berlin.html">Berlin</a></li>
+            </ul>
+        </li>
+        <li><a href="tablepage.html">Comparison</a></li>
+        <li><a href="form.html">Review</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+    </ul>
+</div>
+
+<div class="container">
+
+    <h1>Money Heist</h1>
+
+    <div class="video-space">
+        <iframe 
+            src="https://www.youtube.com/embed/_InqQJRqGW4"
+            title="Money Heist Trailer"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <p>
+        <strong>Money Heist</strong> (La Casa de Papel) is a Spanish crime thriller series that follows a
+        mysterious mastermind known as the Professor, who recruits criminals to execute
+        the biggest heists in history at the Royal Mint and the Bank of Spain.
+    </p>
+
+    <h3>Key Elements of the Series:</h3>
+
+    <ul>
+        <li>
+            <span class="bold-black">Setting:</span>
+            Royal Mint of Spain and Bank of Spain, Madrid.
+        </li>
+
+        <li>
+            <span class="bold-black">Main Characters:</span>
+            <ul>
+                <li><span class="bold-black">The Professor (Sergio Marquina):</span> The mastermind behind the heists.</li>
+                <li><span class="bold-black">Tokyo (Silene Oliveira):</span> Impulsive narrator and key crew member.</li>
+                <li><span class="bold-black">Berlin (Andrés de Fonollosa):</span> Charismatic leader inside the Mint.</li>
+                <li><span class="bold-black">Nairobi (Ágata Jiménez):</span> Expert in forgery and quality control.</li>
+                <li><span class="bold-black">Rio (Aníbal Cortés):</span> Young hacking specialist.</li>
+                <li><span class="bold-black">Denver (Ricardo Ramos):</span> Known for his distinctive laugh.</li>
+                <li><span class="bold-black">Moscow (Agustín Ramos):</span> Miner and Denver’s father.</li>
+                <li><span class="bold-black">Helsinki:</span> Serbian soldier, loyal enforcer.</li>
+                <li><span class="bold-black">Oslo:</span> Helsinki’s cousin and fellow soldier.</li>
+                <li><span class="bold-black">Lisbon (Raquel Murillo):</span> Police inspector turned ally.</li>
+                <li><span class="bold-black">Stockholm (Mónica Gaztambide):</span> Former hostage turned crew member.</li>
+                <li><span class="bold-black">Palermo:</span> Architect of the Bank of Spain heist.</li>
+                <li><span class="bold-black">Bogotá:</span> Metallurgy expert.</li>
+                <li><span class="bold-black">Alicia Sierra:</span> Ruthless police inspector.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="rating">IMDB Rating:</div>
+    <div class="rating-score">8.2/10</div>
+
+</div>
+
+</body>
+</html>
