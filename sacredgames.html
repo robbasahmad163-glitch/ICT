@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sacred Games</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Times New Roman", Times, serif;
+            background-color: #ffffff;
+        }
+
+        .navbar {
+            background-color: maroon;
+            padding: 12px 0;
+        }
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding-left: 30px;
+        }
+        .navbar ul li {
+            display: inline-block;
+            position: relative;
+            margin-right: 30px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 5px;
+            display: inline-block;
+        }
+        .navbar ul li ul {
+            display: none;
+            position: absolute;
+            background-color: maroon;
+            top: 100%;
+            left: 0;
+            min-width: 200px;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+        .navbar ul li:hover ul {
+            display: block;
+        }
+        .navbar ul li ul li {
+            display: block;
+        }
+        .navbar ul li ul li a {
+            padding: 8px 15px;
+        }
+
+        .container {
+            padding: 40px 60px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 35px;
+            color: black;
+            font-weight: bold;
+        }
+
+        .video-space {
+            width: 100%;
+            height: 360px;
+            margin-bottom: 35px;
+        }
+        .video-space iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        h3 {
+            font-size: 17px;
+            margin-top: 25px;
+        }
+
+        ul {
+            margin-top: 10px;
+        }
+
+        li {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        ul ul {
+            margin-top: 8px;
+        }
+
+        .bold-black {
+            font-weight: bold;
+            color: black;
+        }
+
+        .rating {
+            margin-top: 30px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .rating-score {
+            text-align: center;
+            margin-top: 8px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+            <a href="#">Shows</a>
+            <ul>
+                <li><a href="mirzapur.html">Mirzapur</a></li>
+                <li><a href="sacredgames.html">Sacred Games</a></li>
+                <li><a href="moneyheist.html">Money Heist</a></li>
+                <li><a href="gangsofwasseypur.html">Gangs of Wasseypur</a></li>
+                <li><a href="berlin.html">Berlin</a></li>
+            </ul>
+        </li>
+        <li><a href="tablepage.html">Comparison</a></li>
+        <li><a href="form.html">Review</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+    </ul>
+</div>
+
+<div class="container">
+
+    <h1>Sacred Games</h1>
+
+    <div class="video-space">
+        <iframe 
+            src="https://www.youtube.com/embed/AkUgf2jIPyI"
+            title="Sacred Games Season 1 Trailer"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <p>
+        <strong>Sacred Games</strong> is a critically acclaimed Indian crime thriller series on Netflix,
+        based on Vikram Chandra’s novel. The story follows a troubled Mumbai police
+        officer and a philosophical gangster, whose intertwined past reveals a massive
+        conspiracy involving crime, politics, religion, and power.
+    </p>
+
+    <h3>Key Elements of the Series:</h3>
+
+    <ul>
+        <li>
+            <span class="bold-black">Setting:</span>
+            Mumbai’s underworld, spanning several decades of social and political turmoil.
+        </li>
+
+        <li>
+            <span class="bold-black">Main Characters:</span>
+            <ul>
+                <li><span class="bold-black">Ganesh Gaitonde:</span> Notorious gangster narrating his rise and fall.</li>
+                <li><span class="bold-black">Sartaj Singh:</span> Honest but conflicted Mumbai police officer.</li>
+                <li><span class="bold-black">Anjali Mathur:</span> RAW agent investigating a larger conspiracy.</li>
+                <li><span class="bold-black">Kukoo:</span> Gaitonde’s lover and stage performer.</li>
+                <li><span class="bold-black">Bunty:</span> Gaitonde’s loyal henchman.</li>
+                <li><span class="bold-black">Malcolm Moura:</span> Corrupt police officer.</li>
+                <li><span class="bold-black">Parulkar:</span> Sartaj’s senior officer.</li>
+                <li><span class="bold-black">Katekar:</span> Senior Mumbai police official.</li>
+                <li><span class="bold-black">Majid Khan:</span> Intelligence officer and Sartaj’s associate.</li>
+                <li><span class="bold-black">Guruji:</span> Mysterious spiritual leader with dangerous influence.</li>
+                <li><span class="bold-black">Batya Abelman:</span> Arms dealer and Guruji’s associate.</li>
+                <li><span class="bold-black">Shahid Khan:</span> Young radical drawn into extremism.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="rating">IMDB Rating:</div>
+    <div class="rating-score">8.5/10</div>
+
+</div>
+
+</body>
+</html>
