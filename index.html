@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Series Hub</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Times New Roman", Times, serif;
+            background-color: #ffffff;
+        }
+        .navbar {
+            background-color: maroon;
+            padding: 12px 0;
+        }
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding-left: 30px;
+        }
+        .navbar ul li {
+            display: inline-block;
+            position: relative;
+            margin-right: 30px;
+        }
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: normal;
+            font-size: 18px;
+            padding: 8px 5px;
+            display: inline-block;
+        }
+        .navbar ul li ul {
+            display: none;
+            position: absolute;
+            background-color: maroon;
+            top: 100%;
+            left: 0;
+            min-width: 200px;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+
+        .navbar ul li:hover ul {
+            display: block;
+        }
+
+        .navbar ul li ul li {
+            display: block;
+        }
+
+        .navbar ul li ul li a {
+            display: block;
+            padding: 8px 15px;
+        }
+        .container {
+            padding: 40px 60px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 25px;
+        }
+        .intro {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: justify;
+            margin-bottom: 30px;
+        }
+        .members {
+            font-size: 18px;
+            text-align: left;
+            margin-bottom: 25px;
+        }
+        .content-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+<div class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+            <a href="#">Shows</a>
+            <ul>
+                <li><a href="mirzapur.html">Mirzapur</a></li>
+                <li><a href="sacredgames.html">Sacred Games</a></li>
+                <li><a href="moneyheist.html">Money Heist</a></li>
+                <li><a href="gangsofwasseypur.html">Gangs of Wasseypur</a></li>
+                <li><a href="berlin.html">Berlin</a></li>
+            </ul>
+        </li>
+        <li><a href="tablepage.html">Comparison</a></li>
+        <li><a href="form.html">Review</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+    </ul>
+</div>
+<div class="container">
+    <h1>Welcome to Our Entertainment Review Website</h1>
+
+    <p class="intro">
+        This website is created as an academic project to explore, compare, and review
+        some of the most popular web series and films. It provides structured information,
+        IMDb ratings, trailers, and user reviews in a clean and organized format.
+    </p>
+
+    <div class="members">
+        <strong>Group Members:</strong><br>
+        Robbas Ahmed Mir<br>
+        Asim Hamid
+        Hamza Khan
+    </div>
+    <div class="content-image">
+        <img src="combined_landscape_posters.jpg" alt="Popular Web Series Posters">
+    </div>
+
+</div>
+
+</body>
+</html>
